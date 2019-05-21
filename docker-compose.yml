@@ -2,8 +2,8 @@ version: '3'
 services:
   ui:
     build: .
-    container_name: yourapp_ui
-    image: yourapp_ui
+    container_name: expense-ui
+    image: expenses_ui
     command: npm start
     ports:
     - '3000:3000'
