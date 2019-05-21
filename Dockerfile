@@ -1,4 +1,4 @@
-FROM node:11
+FROM node:12 as base
 
 COPY . /usr/src/app
 

@@ -2,11 +2,11 @@ version: '3'
 services:
   ui:
     build: .
-    container_name: expense-ui
+    container_name: expenses-ui
     image: expenses_ui
     command: npm start
     ports:
     - '3000:3000'
     volumes:
-    - .:/usr/src/app
-     - /usr/src/app/node_modules
+    - ${PWD}:/usr/src/app
+    - /usr/src/app/node_modules
