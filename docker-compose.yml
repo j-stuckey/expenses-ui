@@ -1,8 +1,10 @@
-version: '3'
+version: '3.4'
 services:
   ui:
-    build: .
-    container_name: expenses-ui
+    build:
+      context: .
+      target: base
+    container_name: expenses_ui
     image: expenses_ui
     command: npm start
     ports:

@@ -5,7 +5,9 @@ import AppContainer from '../containers/AppContainer';
 import styles from './styles/LandingPage.module.css';
 
 export class LandingPage extends Component {
+
     render() {
+		document.title = 'Expenses Tracker'
         return (
             <AppContainer>
                 <p>Hello, world!</p>
