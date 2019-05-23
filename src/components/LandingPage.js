@@ -10,11 +10,7 @@ export class LandingPage extends Component {
 		document.title = 'Expenses Tracker'
         return (
             <AppContainer>
-                <p>Hello, world!</p>
-                <p>
-                    This starter kit should come equipped with Redux,
-                    Redux-Thunk, React Router and CSS Modules.
-                </p>
+				
             </AppContainer>
         );
     }
