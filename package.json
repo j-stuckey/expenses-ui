@@ -5,6 +5,7 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^16.8.4",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.4",
     "react-redux": "^7.0.3",
     "react-router": "^5.0.0",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-	"prod": "serve -p 3000 -s build",
+    "prod": "serve -p 3000 -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

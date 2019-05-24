@@ -1,0 +1,10 @@
+.Header {
+  height: 60px;
+  width: 100%;
+  background: #011936;
+}
+
+.line {
+	border: 1px solid white;
+	width: 50px;
+}

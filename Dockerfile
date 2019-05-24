@@ -8,4 +8,3 @@ RUN npm install -s
 FROM node:12 as production
 COPY --from=base /usr/src/app ./
 RUN npm run build
-RUN npm install -g serve

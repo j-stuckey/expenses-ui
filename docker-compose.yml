@@ -8,21 +8,21 @@ services:
     image: expenses_dev
     command: npm start
     ports:
-    - '5000:3000'
+    - '3000:3000'
     volumes:
     - ${PWD}:/usr/src/app
     - /usr/src/app/node_modules
     
-  # prod:
-  #   build:
-  #     context: .
-  #     target: production
-  #   container_name: expenses_prod
-  #   image: expenses_prod
-  #   command: npm run prod
-  #   ports:
-  #   - '3000:3000'
-  #   volumes:
-  #   - ${PWD}:/usr/src/app
-  #   - /usr/src/app/node_modules
+  prod:
+    build:
+      context: .
+      target: production
+    container_name: expenses_prod
+    image: expenses_prod
+    command: npx serve -p 3000 -s build
+    ports:
+    - '80:3000'
+    volumes:
+    - ${PWD}:/usr/src/app
+    - /usr/src/app/node_modules
 
