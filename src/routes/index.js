@@ -6,7 +6,6 @@ import Navigation from '../components/Navigation';
 
 const Routes = () => (
     <Router>
-        <Route path="/" component={Navigation} />
         <Switch>
             <Route exact path="/" component={LandingPage} />
         </Switch>

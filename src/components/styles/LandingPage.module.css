@@ -1,0 +1,87 @@
+.Container {
+	width: 100vw;
+	height: 100vh;
+	background: #3F88C5;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.LoginButton {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	padding: 8px 26px;
+	border-radius: 3px;
+	background: transparent;
+	color: white;
+}
+
+.Form {
+	display: flex;
+	width: 60%;
+	height: 50%;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	position: relative;
+	top: 50px;
+}
+
+.FormLegend {
+	font-size: 1.7rem;
+	padding: 20px;
+}
+
+.Names {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.FirstName {
+	margin-right: 2%;
+}
+
+.LastName {
+	margin-left: 2%;
+}
+
+.NameInput {
+	width: 48%;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: none;
+}
+
+.Bottom {
+	width: 100%;
+	height: 100vh;
+	background: rgb(228, 228, 228);
+}
+
+.SubmitButton {
+	width: 100%;
+	padding: 12px 25px;
+	border-radius: 5px;
+	border: none;
+	background: #011936;
+	color: white;
+}
+
+@media only screen and (max-width: 400px){
+	.Form {
+		width: 100%;
+		padding: 10px 20px;
+	}
+
+	.NameInput {
+		width: 100%;
+		margin: 10px auto;
+	}
+}
