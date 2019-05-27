@@ -19,7 +19,7 @@ export class LandingPage extends Component {
                                 type="text"
                                 name="firstName"
                                 placeholder="First name"
-                                className={`${styles.NameInput} ${styles.FirstName}`}
+                                className={`${styles.Input} ${styles.LeftInput}`}
                             />
 
                             <label htmlFor="firstName" />
@@ -27,7 +27,26 @@ export class LandingPage extends Component {
                                 type="text"
                                 name="lastName"
                                 placeholder="Last name"
-                                className={`${styles.NameInput} ${styles.LastName}`}
+                                className={`${styles.Input} ${styles.RightInput}`}
+                                required
+                            />
+                        </div>
+
+                        <div className={styles.Names}>
+                            <label htmlFor="email" />
+                            <input
+                                type="email"
+                                name="email"
+                                className={`${styles.Input} ${styles.LeftInput}`}
+                                placeholder="Email"
+                                required
+                            />
+                            <label htmlFor="password" />
+                            <input
+                                type="password"
+                                className={`${styles.Input} ${styles.RightInput}`}
+                                name="password"
+                                placeholder="Password"
                                 required
                             />
                         </div>

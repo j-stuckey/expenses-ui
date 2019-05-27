@@ -18,6 +18,11 @@
 	color: white;
 }
 
+.LoginButton:hover {
+	background: red;
+	border: none;
+}
+
 .Form {
 	display: flex;
 	width: 60%;
@@ -44,15 +49,15 @@
 	margin: 15px 0;
 }
 
-.FirstName {
+.LeftInput {
 	margin-right: 2%;
 }
 
-.LastName {
+.RightInput {
 	margin-left: 2%;
 }
 
-.NameInput {
+.Input {
 	width: 48%;
 	padding: 10px 15px;
 	border-radius: 3px;
