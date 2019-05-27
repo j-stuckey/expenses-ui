@@ -46,7 +46,7 @@
 	flex-flow: row wrap;
 	justify-content: space-between;
 	width: 100%;
-	margin: 15px 0;
+	margin-bottom: 15px;
 }
 
 .LeftInput {
@@ -82,11 +82,16 @@
 @media only screen and (max-width: 400px){
 	.Form {
 		width: 100%;
+		height: fit-content;
 		padding: 10px 20px;
 	}
 
-	.NameInput {
+	.Input {
 		width: 100%;
 		margin: 10px auto;
+	}
+
+	.Names {
+		margin: 0;
 	}
 }
