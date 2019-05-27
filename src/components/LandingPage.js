@@ -52,6 +52,10 @@ export class LandingPage extends Component {
                         </div>
                         <button className={styles.SubmitButton}>Create account</button>
                     </form>
+
+                </div>
+                <div className={styles.Bottom}>
+					
                 </div>
             </React.Fragment>
         );
