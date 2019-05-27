@@ -9,12 +9,14 @@
 }
 
 .LoginButton {
-	position: absolute;
-	right: 20px;
-	top: 20px;
-	padding: 8px 26px;
-	border-radius: 3px;
 	background: transparent;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 8px 26px;
+	border: 1px solid white;
+	border-radius: 3px;
+	text-decoration: none;
 	color: white;
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link } from 'react-router-dom';
 
 import styles from './styles/LandingPage.module.css';
 
@@ -7,7 +8,7 @@ export class LandingPage extends Component {
         return (
             <React.Fragment>
                 <div className={styles.Container}>
-                    <button className={styles.LoginButton}>Login</button>
+                    <Link to="/login" className={styles.LoginButton}>Login</Link>
 
                     <form className={styles.Form}>
                         <legend className={styles.FormLegend}>
